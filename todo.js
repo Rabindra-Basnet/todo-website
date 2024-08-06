@@ -32,7 +32,7 @@ listContainer.addEventListener('click', function(e){
 }, false)
 
 inputBox.addEventListener('keypress', (e)=>{
-    if(e.key === 'ctrl + Enter'){
+    if(e.key === 'Enter'){
         e.preventDefault();
         addTask();
     }
